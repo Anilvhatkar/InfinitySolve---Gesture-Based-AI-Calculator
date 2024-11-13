@@ -59,7 +59,7 @@ Gemini API access
 **API Dependency:** Reliance on Gemini API for complex equations introduces external dependencies.
 
 
-#**Future Enhancements**
+# **Future Enhancements**
 
 
 **Advanced Math Features:** Support for more complex operations like integrals and graph plotting.
@@ -70,7 +70,7 @@ Gemini API access
 
 
 
-#**Acknowledgements**
+# **Acknowledgements**
 
 **OpenCV:** For gesture and image processing.
 
