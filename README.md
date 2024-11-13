@@ -1,92 +1,80 @@
-# InfinitySolve-Gesture-Based-AI-Calculator
-InfinitySolve is an innovative, AI-driven calculator that uses hand gestures for solving mathematical problems. By integrating computer vision, real-time gesture recognition, and AI, InfinitySolve makes math problem-solving accessible, engaging, and hands-free.
+# 🧮 Apple-Inspired AI Calculator
 
-# Features
-**Gesture-Based Input:** Perform math operations with intuitive hand gestures captured by a webcam.
+## 📝 Overview
+The Apple-Inspired AI Calculator is an innovative project that utilizes OpenCV and Google’s Gemini AI to solve mathematical problems of any complexity. The user can draw the math problem on the screen, and the AI model will interpret the visual input to provide a detailed solution. This project is similar to the Apple iPad calculator but leverages advanced AI technology for enhanced functionality and accuracy.
 
-**Real-Time Processing:** Uses the Gemini API for instant and accurate equation solving.
+## ✨ Features
+- ✍️ **Draw Math Problems:** Use your finger to draw any mathematical problem on the screen.
+- 🖱️ **Move Around:** Move the pointer around the screen by lifting two fingers.
+- 🗑️ **Reset Canvas:** Erase the current drawing by lifting the thumb.
+- 📤 **Send to AI Model:** Send the visual drawing to the model by lifting the little finger.
+- 📊 **Detailed Solutions:** The model interprets the drawing and displays a detailed solution.
 
-**Image Upload:** Upload images of math problems for interpretation and solution.
+## 📋 Requirements
+- 🐍 **Python 3.x**
+- 👁️ **OpenCV 4.8.0.74**
+- ➗ **Numpy 1.23.5**
+- 🖼️ **Pillow 9.3.0**
+- 🤖 **Google Generative AI 0.1.0**
+- 🛠️ **CVZone 1.5.6**
+- 🌐 **Django 4.2**
 
-**User-Friendly Interface:** Includes features like dark mode and real-time feedback to enhance user experience.
+## 🚀 Installation
 
-**Accessibility:** Designed for users with limited mobility to provide a hands-free experience.
+1. **Obtain the Gemini API Key:**
+   - Visit [AI Studio](https://aistudio.google.com) to get your Gemini API key.
 
+2. **Install Dependencies:**
+   - Run the following command to install the required packages:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-# Project Overview
+3. **Configure the API Key:**
+   - Add your API key to `videoapp/view.py`.
 
-InfinitySolve combines cutting-edge computer vision and AI to transform how users solve math problems. It caters to students, educators, and professionals needing efficient, accessible solutions.
+4. **Run the Web Application:**
+   - Start the web server with:
+     ```bash
+     python manage.py runserver
+     ```
 
+5. **Access the Web Application:**
+   - Open your web browser and navigate to [http://127.0.0.1:8000](http://127.0.0.1:8000) to use the app.
 
-# **Prerequisites**
+## 🎥 Demo Video
 
-Python 3.x
+Check out the demo video to see the Virtual AI Calculator in action:60k+ reactions
 
-Django
+[Watch the Demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7221422183175139328/)
 
-OpenCV
+## 🎨 Drawing Rules
 
-CVZone
+To interact with the calculator, follow these drawing rules:
+- ✍️ Draw math problems only when the pointer finger is up.
+- 🖱️ Move around the screen by lifting two fingers.
+- 🗑️ Reset/erase the canvas by lifting the thumb.
+- 📤 Send the visual drawing to the AI model by lifting the little finger.
 
-Gemini API access
+The AI model will then interpret the drawing and display a detailed solution.
 
+## 📚 Learning Resources
 
-# How to Use
+To better understand the technologies used in this project, you can explore the following resources:
+- **OpenCV Documentation:** [OpenCV Documentation](https://docs.opencv.org/)
+- **OpenCV Detailed Video:** [OpenCV Video](https://youtu.be/oXlwWbU8l2o?si=8UFFRz7uRiHsULZr)
+- **Air Canvas Setup:** [Air Canvas](https://youtu.be/T7sjrWc4QEc?si=nHRhGhyf86rPtbO3)
 
-**Draw Gestures:** Use a webcam to draw equations in the air with single-finger gestures. Use two fingers to pause and an open hand to clear.
+## 🤝 Contribution
 
-**Upload Images:** Alternatively, upload a picture of a math problem, and InfinitySolve will process and solve it.
+We welcome contributions to enhance this project. Feel free to submit issues and pull requests. Your feedback and suggestions are highly appreciated!
 
-**Receive Feedback:** The app provides real-time feedback on recognized gestures, making it intuitive and easy to use.
+## 📜 License
 
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Example Use Cases
+## 🙏 Acknowledgments
 
-**Students:** Interactive, hands-free learning for solving complex equations.
-
-**Educators:** Demonstrate math concepts dynamically in classrooms.
-
-**Accessibility-Focused Users:** Ideal for individuals with physical limitations who benefit from hands-free technology.
-
-
-# **Challenges and Limitations**
-
-
-**Lighting Conditions:** Gesture recognition accuracy may drop in low-light environments.
-
-**Device Compatibility:** Performance varies across different webcams and platforms.
-
-**API Dependency:** Reliance on Gemini API for complex equations introduces external dependencies.
-
-
-# **Future Enhancements**
-
-
-**Advanced Math Features:** Support for more complex operations like integrals and graph plotting.
-
-**Voice Command Integration:** Adding voice controls for even greater accessibility.
-
-**Machine Learning Integration:** Enhanced gesture tracking using ML models for improved accuracy.
-
-
-
-# **Acknowledgements**
-
-**OpenCV:** For gesture and image processing.
-
-**Django:** Framework for building the web app.
-
-**Gemini API:** For AI-driven math problem-solving.
-
-**CVZone:** Simplifying computer vision tasks.
+- Thanks to everyone who has supported this project.
 
 
-# **References**
-
-OpenCV Documentation
-
-Django Framework
-
-Gemini API Documentation
-
-CVZone GitHub Repository
