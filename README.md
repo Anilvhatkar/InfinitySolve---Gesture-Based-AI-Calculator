@@ -65,13 +65,6 @@ To better understand the technologies used in this project, you can explore the 
 - **OpenCV Detailed Video:** [OpenCV Video](https://youtu.be/oXlwWbU8l2o?si=8UFFRz7uRiHsULZr)
 - **Air Canvas Setup:** [Air Canvas](https://youtu.be/T7sjrWc4QEc?si=nHRhGhyf86rPtbO3)
 
-## 🤝 Contribution
-
-We welcome contributions to enhance this project. Feel free to submit issues and pull requests. Your feedback and suggestions are highly appreciated!
-
-## 📜 License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
