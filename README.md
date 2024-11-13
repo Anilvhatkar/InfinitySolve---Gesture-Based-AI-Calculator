@@ -21,63 +21,68 @@ InfinitySolve combines cutting-edge computer vision and AI to transform how user
 # **Prerequisites**
 
 Python 3.x
+
 Django
+
 OpenCV
+
 CVZone
+
 Gemini API access
 
 
 # How to Use
 
-Draw Gestures: Use a webcam to draw equations in the air with single-finger gestures. Use two fingers to pause and an open hand to clear.
+**Draw Gestures:** Use a webcam to draw equations in the air with single-finger gestures. Use two fingers to pause and an open hand to clear.
 
-Upload Images: Alternatively, upload a picture of a math problem, and InfinitySolve will process and solve it.
+**Upload Images:** Alternatively, upload a picture of a math problem, and InfinitySolve will process and solve it.
 
-Receive Feedback: The app provides real-time feedback on recognized gestures, making it intuitive and easy to use.
+**Receive Feedback:** The app provides real-time feedback on recognized gestures, making it intuitive and easy to use.
 
 
-Example Use Cases
+# Example Use Cases
 
-Students: Interactive, hands-free learning for solving complex equations.
+**Students:** Interactive, hands-free learning for solving complex equations.
 
-Educators: Demonstrate math concepts dynamically in classrooms.
+**Educators:** Demonstrate math concepts dynamically in classrooms.
 
-Accessibility-Focused Users: Ideal for individuals with physical limitations who benefit from hands-free technology.
+**Accessibility-Focused Users:** Ideal for individuals with physical limitations who benefit from hands-free technology.
 
 
 # **Challenges and Limitations**
 
 
-Lighting Conditions: Gesture recognition accuracy may drop in low-light environments.
+**Lighting Conditions:** Gesture recognition accuracy may drop in low-light environments.
 
-Device Compatibility: Performance varies across different webcams and platforms.
+**Device Compatibility:** Performance varies across different webcams and platforms.
 
-API Dependency: Reliance on Gemini API for complex equations introduces external dependencies.
-
-
-@ **Future Enhancements**
+**API Dependency:** Reliance on Gemini API for complex equations introduces external dependencies.
 
 
-Advanced Math Features: Support for more complex operations like integrals and graph plotting.
+#**Future Enhancements**
 
-Voice Command Integration: Adding voice controls for even greater accessibility.
 
-Machine Learning Integration: Enhanced gesture tracking using ML models for improved accuracy.
+**Advanced Math Features:** Support for more complex operations like integrals and graph plotting.
+
+**Voice Command Integration:** Adding voice controls for even greater accessibility.
+
+**Machine Learning Integration:** Enhanced gesture tracking using ML models for improved accuracy.
 
 
 
 #**Acknowledgements**
 
-OpenCV: For gesture and image processing.
+**OpenCV:** For gesture and image processing.
 
-Django: Framework for building the web app.
+**Django:** Framework for building the web app.
 
-Gemini API: For AI-driven math problem-solving.
+**Gemini API:** For AI-driven math problem-solving.
 
-CVZone: Simplifying computer vision tasks.
+**CVZone:** Simplifying computer vision tasks.
 
 
 # **References**
+
 OpenCV Documentation
 
 Django Framework
